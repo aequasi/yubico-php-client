@@ -1,0 +1,7 @@
+Author: Yubico
+Basename: yubico-php-client
+Homepage: https://developers.yubico.com/yubico-php-client/
+License: BSD-2-Clause
+Name: yubico-php-client
+Project: yubico-php-client
+Summary: Yubico YubiCloud PHP Client Library
