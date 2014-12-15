@@ -1,0 +1,28 @@
+{
+    "name": "yubico/yubico-php-client",
+    "description": "Yubico PHP Client",
+    "license": "BSD",
+    "homepage": "http://www.yubico.com",
+    "support": {
+        "source": "https://developers.yubico.com/yubico-php-client/"
+    },
+    "authors": [
+        {
+            "name": "Aaron Scherer",
+            "email": "aequasi@gmail.com"
+        },
+        {
+            "name": "Simon Josefsson",
+            "email": "simon@yubico.com"
+        },
+        {
+            "name": "Olov Danielson",
+            "email": "olov@yubico.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yubico\\": "src/"
+        }
+    }
+}

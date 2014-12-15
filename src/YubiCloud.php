@@ -12,20 +12,9 @@
 namespace Yubico;
 
 /**
- * Simple example:
- * <code>
- * $otp = "ccbbddeertkrctjkkcglfndnlihhnvekchkcctif";
- *
- * # Generate a new id+key from https://api.yubico.com/get-api-key/
- * $yubi = new \Yubico\YubiCloud('42', 'FOOBAR=');
- * $auth = $yubi->verify($otp);
- * if (PEAR::isError($auth)) {
- *    print "<p>Authentication failed: " . $auth->getMessage();
- *    print "<p>Debug output from server: " . $yubi->getLastResponse();
- * } else {
- *    print "<p>You are authenticated!";
- * }
- * </code>
+ * @author Simon Josefsson <simon@yubico.com>
+ * @author Olov Danielson <olov@yubico.com>
+ * @author Aaron Scherer <aequasi@gmail.com>
  */
 class YubiCloud
 {
